@@ -1,0 +1,318 @@
+.home__title {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home__title h1 {
+    font-size: 72px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.home {
+    height: 100%;
+}
+
+.home__background {
+    background: linear-gradient(rgba(64, 6, 97, 0.3), rgba(64, 6, 97, 0.4)), url(../images/Turkey-Turkish-Cappadocia-hot-air-balloons-1149868-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro {
+    background-color: #f6f9fb;
+    padding: 90px 15px 90px 15px;
+}
+
+.intro__image img {
+    max-width: 100%;
+}
+
+.intro__content {
+    position: relative;
+}
+
+.intro__content--title h1 {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.intro__content--text {
+    font-weight: 600;
+    color: #929191;
+    margin-top: 60px;
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 35px;
+}
+
+.tour__item--btn {
+    position: relative;
+    left: 100px;
+    bottom: 0;
+    display: inline-block;
+    height: 53px;
+    border-radius: 27px;
+    overflow: hidden;
+}
+
+
+/* Statistic */
+
+.statistics {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.statistics__title h1 {
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.statistics__text {
+    margin: 20px 0;
+    padding: 0 50px;
+    line-height: 2;
+}
+
+.statistics__years {
+    padding: 0 100px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--yellow);
+}
+
+.statistics__years .row {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.statistics__content {
+    padding: 0 30px;
+}
+
+.statistics__content .row {
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics__content__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.content__item__stats {
+    padding: 0 10px;
+}
+
+.statistics__item__text {
+    margin: 0 10px;
+}
+
+.stats__number {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.stats__type {
+    font-size: 14px;
+    font-weight: 600;
+    color: #929191;
+}
+
+.stats__bar {
+    width: 100%;
+    position: relative;
+}
+
+.stats__bar__perc--left {
+    height: 3px;
+    background-color: #e1e1e1;
+    float: left;
+}
+
+.stats__bar__perc--right {
+    height: 3px;
+    float: right
+}
+
+.stats__bar__value {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    font-weight: 600;
+}
+
+
+/* Sale */
+
+.sale__container__content {
+    background: url('../images/xadd.jpg.pagespeed.ic.GcGK49YYUj.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 295px;
+    position: relative;
+    margin: 0 15px;
+    margin-bottom: 90px;
+}
+
+.sale__container__content__body {
+    color: var(--white-color);
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.sale__container__body--title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sale__container__body--price {
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-left: 5px;
+}
+
+.sale__container__body--price span {
+    font-weight: 700;
+}
+
+.milestones {
+    padding-bottom: 90px;
+}
+
+.milestones__container .row {
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.milestones__container__item {
+    text-align: center;
+    width: 25%;
+}
+
+.milestones__container__item--stat {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: 15px;
+}
+
+.milestones__container__item--text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #9a9999;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1023px) {
+    .wide.custom {
+        max-width: 984px !important;
+        width: auto;
+    }
+    .row {
+        margin: 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .home__title h1 {
+        font-size: 48px;
+        white-space: nowrap;
+    }
+    .intro {
+        background-color: #f6f9fb;
+        padding: 90px 15px 90px 15px;
+    }
+    .intro__content--title h1 {
+        font-size: 25px;
+    }
+    .intro .tour__item--btn {
+        height: 45px
+    }
+    .intro .tour__item--btn a {
+        line-height: 45px
+    }
+    .statistics__content .row {
+        padding: 0 10px;
+    }
+    .padding {
+        padding: 0 25px;
+    }
+    .sale__container__body--title {
+        font-size: 40px;
+    }
+    .sale__container__content__body .tour__item--btn {
+        height: 42px;
+    }
+    .sale__container__content__body .tour__item--btn a {
+        line-height: 42px;
+    }
+    .milestones__container__item {
+        width: 50%;
+    }
+    .margin-top {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 479px) {
+    .home__background {
+        background-attachment: scroll;
+    }
+    .home__title {
+        top: 60%;
+    }
+    .home__title h1 {
+        font-size: 30px;
+        white-space: nowrap;
+    }
+    .header__about-us h1 {
+        font-size: 32px;
+    }
+    .statistics {
+        padding: 50px 0;
+    }
+    .statistics__title h1 {
+        font-size: 27px;
+    }
+    .statistics__years {
+        margin-top: 20px;
+    }
+    .padding {
+        padding: 0 42px;
+    }
+    .stats__number {
+        font-size: 20px;
+    }
+    .stats__type {
+        font-size: 13px;
+    }
+    .sale__container__body--title {
+        font-size: 32px;
+    }
+    .milestones__container__item {
+        width: 100%;
+    }
+    .margin-top-mb {
+        margin-top: 50px;
+    }
+}

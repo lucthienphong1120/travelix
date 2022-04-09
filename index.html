@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/images/logo_title.ico" />
+  <title>Travelix</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/grid.css" />
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__topbar">
+      <div class="grid wide">
+        <div class="header__topbar__container">
+          <div class="row">
+            <div class="l-6 m-8 c-8">
+              <div class="header__topbar__container--contacts">
+                <span>+84 945 000 917</span>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="l-6 m-4 c-4">
+              <ul class="header__topbar__container--register">
+                <a href="#">
+                  <li>Login</li>
+                </a>
+                <a href="#">
+                  <li>|</li>
+                </a>
+                <a href="#">
+                  <li>Register</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav">
+      <div class="header__nav__container">
+        <div class="grid wide">
+          <div class="row">
+            <div class="l-3 m-6 c-8">
+              <a href="#">
+                <div class="header__nav__container--logo">
+                  <img src="assets/images/logo.webp" alt="" /> Travelix
+                </div>
+              </a>
+            </div>
+            <div class="l-6 hide-on-tablet_mobile">
+              <ul class="header__nav__container--list">
+                <li><a class="active" href="pages/home.html">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="pages/offers.html">Offers</a></li>
+                <li><a href="pages/news.html">News</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="l-3 m-6 c-4">
+              <i class="fas fa-bars list-tablet-mobile" id="menu_open"></i>
+              <div class="header__nav__container--search">
+                <i class="fas fa-search" id="search"></i>
+                <br />
+                <input type="text" placeholder="Search..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__menu">
+      <div class="header__menu__overlay"></div>
+      <div class="header__menu__body--content">
+        <ul>
+          <li><a class="active" href="pages/home.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/offers.html">Offers</a></li>
+          <li><a href="pages/news.html">News</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        <i class="fas fa-times" id="menu_close"></i>
+      </div>
+    </div>
+    <div class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+  </header>
+  <div class="home">
+    <div class="home__background"></div>
+    <div class="grid wide">
+      <div class="row">
+        <div class="home__container__slider">
+          <div class="home__container__slider--content">
+            <h1>Discover</h1>
+            <h1>the world</h1>
+          </div>
+          <div class="home__container__slider--btn">
+            <div class="btn__bgc"></div>
+            <a href="#">explore now
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="search">
+    <div class="grid wide">
+      <div class="search__container__tabs grid wide">
+        <div class="row">
+          <div class="search__container__tab d-flex active">
+            <img src="assets/images/hotel.webp" alt="" />
+            <span>Hotels</span>
+          </div>
+          <div class="search__container__tab d-flex">
+            <img src="assets/images/car.webp" alt="" />
+            <span>Car rentals</span>
+          </div>
+          <div class="search__container__tab d-flex">
+            <img src="assets/images/fly.webp" alt="" />
+            <span>Flights</span>
+          </div>
+          <div class="search__container__tab d-flex">
+            <img src="assets/images/trip.webp" alt="" />
+            <span>Trips</span>
+          </div>
+          <div class="search__container__tab d-flex">
+            <img src="assets/images/cruises.webp" alt="" />
+            <span>Cuises</span>
+          </div>
+          <div class="search__container__tab d-flex">
+            <img src="assets/images/activities.webp" alt="" />
+            <span>Activities</span>
+          </div>
+        </div>
+      </div>
+      <div class="search__container">
+        <div class="row">
+          <div class="search__container--item l-4 m-6 c-12">
+            <div>
+              <span>Destination</span>
+            </div>
+            <input type="text" />
+          </div>
+          <div class="search__container--item l-2 m-6 c-12">
+            <div>
+              <span>Check in</span>
+            </div>
+            <input type="text" placeholder="DD-MM-YYYY" />
+          </div>
+          <div class="search__container--item l-2 m-6 c-12">
+            <div>
+              <span>Check out</span>
+            </div>
+            <input type="text" />
+          </div>
+          <div class="search__container--item l-1 m-3 c-6">
+            <div>
+              <span>Adults</span>
+            </div>
+            <select name="" id="">
+              <option>01</option>
+              <option>02</option>
+              <option>03</option>
+            </select>
+          </div>
+          <div class="search__container--item l-1 m-3 c-6">
+            <div>
+              <span>CHILDREN</span>
+            </div>
+            <select name="" id="">
+              <option>0</option>
+              <option>01</option>
+              <option>02</option>
+            </select>
+          </div>
+          <div class="search__container--btn l-2 m-4 c-4">
+            <a href="#">Search</a>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tour">
+    <div class="grid wide">
+      <div class="tour__container">
+        <div class="tour__container__content">
+          <h2>We have the best tours</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu
+            convallis tortor.<br />
+            Suspendisse potenti. In faucibus massa arcu, vitae cursus mi
+            hendrerit nec.
+          </p>
+        </div>
+        <div class="tour__container__items">
+          <div class="row">
+            <div class="col l-4 m-12 c-12">
+              <div class="tour__container__item">
+                <div class="item__overlay"></div>
+                <div class="item__background" style="
+                      background-image: url(assets/images/xintro_1.jpg.pagespeed.ic.vc2WNRX2pm.webp);
+                    "></div>
+                <div class="item__content">
+                  <span class="item_date">May 15th - July 01st</span>
+                  <div class="item_center">
+                    <h1>Mauritius</h1>
+                    <div class="item_price">From $1450</div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="tour__item--btn">
+                      <div class="tour__btn__bgc"></div>
+                      <a href="#">See more
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="tour__container__item">
+                <div class="item__overlay"></div>
+                <div class="item__background" style="
+                      background-image: url(assets/images/xintro_2.jpg.pagespeed.ic.T0_SEU16mo.webp);
+                    "></div>
+                <div class="item__content">
+                  <span class="item_date">May 15th - July 01st</span>
+                  <div class="item_center">
+                    <h1>Greece</h1>
+                    <div class="item_price">From $1450</div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="tour__item--btn">
+                      <div class="tour__btn__bgc"></div>
+                      <a href="#">See more
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-12 c-12">
+              <div class="tour__container__item">
+                <div class="item__overlay"></div>
+                <div class="item__background" style="
+                      background-image: url(assets/images/xintro_3.jpg.pagespeed.ic.56ahj3oq2s.webp);
+                    "></div>
+                <div class="item__content">
+                  <span class="item_date">May 15th - July 01st</span>
+                  <div class="item_center">
+                    <h1>Scotland</h1>
+                    <div class="item_price">From $1450</div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                    <div class="tour__item--btn">
+                      <div class="tour__btn__bgc"></div>
+                      <a href="#">See more
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="package">
+    <div class="package__background" style="
+          background-image: url(assets/images/xcta.jpg.pagespeed.ic.m69gPEowgD.webp);
+        "></div>
+    <div class="package__container">
+      <div class="grid wide">
+        <div class="package__container___body">
+          <div class="package__container___body--content">
+            <div class="body--content__cta">
+              <h2>maldives deluxe package</h2>
+              <div class="item_rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam eu convallis tortor. Suspendisse potenti. In faucibus
+                massa arcu,<br />
+                vitae cursus mi hendrerit nec. Proin bibendum, augue faucibus
+                tincidunt ultrices, tortor augue gravida lectus, et efficitur
+                enim justo vel ligula.
+              </p>
+            </div>
+            <div class="item--btn">
+              <div class="btn__bgc"></div>
+              <a href="#">Book Now
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="offers">
+    <div class="offers__container">
+      <div class="grid wide">
+        <h2>the best offers with rooms</h2>
+        <div class="row offers__container__items">
+          <div class="col l-6 m-12 c-12 s-12">
+            <div class="offer__container__item">
+              <div class="row">
+                <div class="col l-6 m-6 c-6 s-12">
+                  <div class="offer__item__img--container">
+                    <div class="offer__item__img" style="
+                          background-image: url(assets/images/xoffer_1.jpg.pagespeed.ic.LnLHOsFCJq.webp);
+                        "></div>
+                    <div class="offer__container__item-name">
+                      <a href="#">grand castle</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-6 m-6 c-6 s-12">
+                  <div class="offer__container__item--content">
+                    <div class="offers__item__price">
+                      $70
+                      <span>per night</span>
+                    </div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <p>
+                      Suspendisse potenti. In faucibus massa. Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit. Nullam eu
+                      convallis tortor.
+                    </p>
+                    <div class="offer__item--icon">
+                      <img src="assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="" />
+                      <img src="assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="" />
+                      <img src="assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="" />
+                      <img src="assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="" />
+                    </div>
+                    <a href="#">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-6 m-12 c-12 s-12">
+            <div class="offer__container__item">
+              <div class="row">
+                <div class="col l-6 m-6 c-6 s-12">
+                  <div class="offer__item__img--container">
+                    <div class="offer__item__img" style="
+                          background-image: url(assets/images/xoffer_2.jpg.pagespeed.ic.HA9cJExNCg.webp);
+                        "></div>
+                    <div class="offer__container__item-name">
+                      <a href="#">turkey hills</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-6 m-6 c-6 s-12">
+                  <div class="offer__container__item--content">
+                    <div class="offers__item__price">
+                      $50
+                      <span>per night</span>
+                    </div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <p>
+                      Suspendisse potenti. In faucibus massa. Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit. Nullam eu
+                      convallis tortor.
+                    </p>
+                    <div class="offer__item--icon">
+                      <img src="assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="" />
+                      <img src="assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="" />
+                      <img src="assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="" />
+                      <img src="assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="" />
+                    </div>
+                    <a href="#">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-6 m-12 c-12">
+            <div class="offer__container__item">
+              <div class="row">
+                <div class="col l-6 m-6 c-6 s-12">
+                  <div class="offer__item__img--container">
+                    <div class="offer__item__img" style="
+                          background-image: url(assets/images/xoffer_3.jpg.pagespeed.ic.9JfYNcm8fb.webp);
+                        "></div>
+                    <div class="offer__container__item-name">
+                      <a href="#">island dream</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-6 m-6 c-6 s-12">
+                  <div class="offer__container__item--content">
+                    <div class="offers__item__price">
+                      $90
+                      <span>per night</span>
+                    </div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <p>
+                      Suspendisse potenti. In faucibus massa. Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit. Nullam eu
+                      convallis tortor.
+                    </p>
+                    <div class="offer__item--icon">
+                      <img src="assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="" />
+                      <img src="assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="" />
+                      <img src="assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="" />
+                      <img src="assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="" />
+                    </div>
+                    <a href="#">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-6 m-12 c-12">
+            <div class="offer__container__item">
+              <div class="row">
+                <div class="col l-6 m-6 c-6 s-12">
+                  <div class="offer__item__img--container">
+                    <div class="offer__item__img" style="
+                          background-image: url(assets/images/xoffer_4.jpg.pagespeed.ic.sP-uVX8-UR.webp);
+                        "></div>
+                    <div class="offer__container__item-name">
+                      <a href="#">travel light</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="l-6 m-6 c-6 s-12">
+                  <div class="offer__container__item--content">
+                    <div class="offers__item__price">
+                      $30
+                      <span>per night</span>
+                    </div>
+                    <div class="item_rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <p>
+                      Suspendisse potenti. In faucibus massa. Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit. Nullam eu
+                      convallis tortor.
+                    </p>
+                    <div class="offer__item--icon">
+                      <img src="assets/images/xpost.png.pagespeed.ic.8S9NJqfU1S.webp" alt="" />
+                      <img src="assets/images/xcompass.png.pagespeed.ic.BMlGyHi2Dm.webp" alt="" />
+                      <img src="assets/images/xbicycle.png.pagespeed.ic.-D-2GN2myH.webp" alt="" />
+                      <img src="assets/images/xsailboat.png.pagespeed.ic.bAIbYdxQvf.webp" alt="" />
+                    </div>
+                    <a href="#">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonials">
+    <div class="test_border"></div>
+    <div class="grid wide">
+      <div class="testimonials__body">
+        <h2>what our clients say about us</h2>
+        <div class="testimonials__body__items">
+          <div class="row">
+            <div class="col l-4 m-6 c-6 xs-12 s-12">
+              <div class="testimonials__body__item">
+                <img src="assets/images/xtest_1.jpg.pagespeed.ic.-6ItEd8cDS.webp" alt="" />
+                <div class="body__item--icon">
+                  <img src="assets/images/xbackpack.png.pagespeed.ic.FSTbvACRee.webp" alt="" />
+                </div>
+                <div class="body__item__container">
+                  <div class="body__item__container__content">
+                    <span>" Best holliday ever "</span>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                    <div class="body__item__container--info">
+                      <h3>carla smith</h3>
+                      <span>May 24, 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 m-6 c-6 xs-12 s-12">
+              <div class="testimonials__body__item">
+                <img src="assets/images/xtest_2.jpg.pagespeed.ic.PdNyty5fyM.webp" alt="" />
+                <div class="body__item--icon">
+                  <img src="assets/images/xisland_t.png.pagespeed.ic.VzskOYDdnJ.webp" alt="" />
+                </div>
+                <div class="body__item__container">
+                  <div class="body__item__container__content">
+                    <span>" Best holliday ever "</span>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                    <div class="body__item__container--info">
+                      <h3>carla smith</h3>
+                      <span>May 24, 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col l-4 hide-on-tablet_mobile">
+              <div class="testimonials__body__item">
+                <img src="assets/images/xtest_3.jpg.pagespeed.ic.ewoEOM4gUF.webp" alt="" />
+                <div class="body__item--icon">
+                  <img src="assets/images/kayak.png.webp" alt="" />
+                </div>
+                <div class="body__item__container">
+                  <div class="body__item__container__content">
+                    <span>" Best holliday ever "</span>
+                    <p>
+                      Nullam eu convallis tortor. Suspendisse potenti. In
+                      faucibus massa arcu, vitae cursus mi hendrerit nec.
+                    </p>
+                    <div class="body__item__container--info">
+                      <h3>carla smith</h3>
+                      <span>May 24, 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="trending">
+    <div class="grid wide">
+      <div class="trending__container">
+        <h2>Trending Now</h2>
+        <div class="trending__container__content">
+          <div class="row">
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_1.png.pagespeed.ic.T7lv0FH9k0.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Grand hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_2.png.pagespeed.ic.RVoMK96K_o.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Mars hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_3.png.pagespeed.ic.r-Q1a1RUR6.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Queen hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_4.png.pagespeed.ic.IIP5He-Ysz.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Mars hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_5.png.pagespeed.ic.7EI7n6G_29.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Grand hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-4 c-6">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_6.png.pagespeed.ic.VzjfNeZa0P.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Mars hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-0 c-0">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_7.png.pagespeed.ic.zHzApqDPn0.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Queen hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+            <div class="col l-3 m-0 c-0">
+              <div class="row treding__container__item">
+                <div class="trending__content__img">
+                  <img src="assets/images/xtrend_8.png.pagespeed.ic.PnOWJ1cx4g.webp" alt="" />
+                </div>
+                <div class="trending__content__text">
+                  <a href="#">Mars hotel</a>
+                  <div class="trending__content--price">Form $182</div>
+                  <span>Madrid, spain</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div class="contact__background"></div>
+    <div class="grid wide">
+      <div class="contact__container">
+        <div class="row">
+          <div class="col l-5"></div>
+          <div class="col l-7">
+            <div class="contact__container__form">
+              <div class="contact__container__form--title">
+                <h2>get in touch</h2>
+              </div>
+              <div class="contact__form">
+                <input type="text" placeholder="Name" class="contact_form_name" />
+                <input type="text" placeholder="E-mail" class="contact_form_email" />
+                <input type="text" placeholder="Subject" class="contact_form_subject" />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="form_submit_button">
+                  send message<span></span><span></span><span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="grid wide">
+        <div class="row">
+          <div class="col l-3 m-6 c-6 s-12">
+            <div class="footer__container__about">
+              <div class="container__about--logo">
+                <a href="#">
+                  <img src="assets/images/logo.webp" alt="" /> Travelix
+                </a>
+              </div>
+              <div class="container__about--text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc
+                  et suscipit urna. Integer eleme ntum orci eu vehicula
+                  pretium.
+                </p>
+              </div>
+              <div class="container__about--social">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-6 s-12">
+            <div class="footer__container__blog">
+              <h2>Blog Posts</h2>
+              <div class="footer__container__blog--content">
+                <div class="container__blog__item">
+                  <div class="container__blog__item--img">
+                    <img src="assets/images/xfooter_blog_1.jpg.pagespeed.ic.n5JT1wzbm-.webp" alt="" />
+                    <div class="container__blog__item--text">
+                      <a href="#">Travel with us this year</a><br />
+                      <span>July 20, 2021</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="container__blog__item">
+                  <div class="container__blog__item--img">
+                    <img src="assets/images/xfooter_blog_2.jpg.pagespeed.ic.u_Bp7zMu38.webp" alt="" />
+                    <div class="container__blog__item--text">
+                      <a href="#">New destinations for you</a><br />
+                      <span>July 20, 2021</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="container__blog__item">
+                  <div class="container__blog__item--img">
+                    <img src="assets/images/xfooter_blog_3.jpg.pagespeed.ic.XDkX_CloU3.webp" alt="" />
+                    <div class="container__blog__item--text">
+                      <a href="#">Travel with us this year</a><br />
+                      <span>July 20, 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-6 s-12">
+            <div class="footer__container__tags">
+              <h2>Tags</h2>
+              <div class="footer__container__tags__content">
+                <ul>
+                  <li><a href="#">design</a></li>
+                  <li><a href="#">fashion</a></li>
+                  <li><a href="#">music</a></li>
+                  <li><a href="#">video</a></li>
+                  <li><a href="#">party</a></li>
+                  <li><a href="#">photography</a></li>
+                  <li><a href="#">adventure</a></li>
+                  <li><a href="#">travel</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col l-3 m-6 c-6 s-12">
+            <div class="footer__container__contact">
+              <h2>Contact Info</h2>
+              <div class="footer__container__contact__content">
+                <div class="container__contact__info">
+                  <div class="container__contact__info--img">
+                    <img src="assets/images/placeholder.svg" alt="" />
+                  </div>
+                  <span>316/1A Huynh Tan Phat, Quan 7</span>
+                </div>
+                <div class="container__contact__info">
+                  <div class="container__contact__info--img">
+                    <img src="assets/images/message.svg" alt="" />
+                  </div>
+                  <span>+84 945 999 917</span>
+                </div>
+                <div class="container__contact__info">
+                  <div class="container__contact__info--img">
+                    <img src="assets/images/phone-call.svg" alt="" />
+                  </div>
+                  <span>trankhang@gmail.com</span>
+                </div>
+                <div class="container__contact__info">
+                  <div class="container__contact__info--img">
+                    <img src="assets/images/planet-earth.svg" alt="" />
+                  </div>
+                  <span>www.newbiedev.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="copyright">
+          Copyright © 2021 By
+          <a href="https://www.facebook.com/trankhang1212/">Tran_Hoang_Khang</a></span>
+      </div>
+      <ul></ul>
+    </div>
+  </footer>
+  <script src="assets/js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
