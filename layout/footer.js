@@ -113,31 +113,29 @@ footer.innerHTML = `
                     <div class="container__contact__info--img">
                       <img src="assets/images/message.svg" alt="" />
                     </div>
-                    <span>+84 945 999 917</span>
+                    <span>+84 923 876 949</span>
                   </div>
                   <div class="container__contact__info">
                     <div class="container__contact__info--img">
                       <img src="assets/images/phone-call.svg" alt="" />
                     </div>
-                    <span>trankhang@gmail.com</span>
+                    <span>travelix@gmail.com</span>
                   </div>
                   <div class="container__contact__info">
                     <div class="container__contact__info--img">
                       <img src="assets/images/planet-earth.svg" alt="" />
                     </div>
-                    <span>www.newbiedev.com</span>
+                    <span>www.travelix.com</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <span class="copyright"
-            >Copyright © 2021 By<a
-              href="https://www.facebook.com/trankhang1212/"
-            >
-              Tran_Hoang_Khang</a
-            ></span
-          >
+          <span class="copyright">
+            Copyright © 2022 By
+            <a href="https://www.facebook.com/ltp1120">
+              Luc Thien Phong</a>
+              </span>
         </div>
       </div>
 `
